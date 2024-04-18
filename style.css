@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.black{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    margin-left: 30vh;
+}
+#box{
+position: absolute;
+top: 24vh;
+margin-left: 0vh;
+background-color:  rgba(10, 10, 10, 0.611);
+height:16vh ;
+width: 60.5vh;
+opacity: 10px;
+}
+#font{
+    margin-left: 28vh;
+    top: 2vh;
+    font-size: 10vh;
+    position: absolute;
+}
+.right{
+    height:500vh ;
+    width: 100vh;
+    background-color: white;}
+#text{
+    
+    margin-left: 6vh;
+    top: 12vh;
+    position: absolute;
+
+}
+#middle{
+    display: flex;
+    /* background-color: blueviolet; */
+    height: 30vh;
+    width: 100vh;
+    top: 40vh;
+    position: absolute;
+    font-size: 2vh;
+    padding-top: 10vh;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}
+
+
+#formleft{
+    /* background-color: bisque; */
+    margin-left: 10vh;
+
+}
+#formright{
+    margin-left: 10vh;
+
+}
+button{
+    background-color: rgb(33, 78, 33);
+    color: white;
+    height: 6vh;
+    width: 30vh;
+    top: 42vh;
+    margin-left: 10vh;
+    position: absolute;
+    border-radius: 2vh;
+    border: none;
+}
+#fot{
+    top: 50vh;
+    margin-left: 7vh;
+    position: absolute;
+    font-size: 2.5vh;
+    font-family: sans-serif;
+    
+}
+    
